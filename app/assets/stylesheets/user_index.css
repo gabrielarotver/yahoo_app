@@ -1,0 +1,406 @@
+* {
+   box-sizing: border-box;
+ }
+
+/* HEADER */
+#navigation img {
+  width: 2em;
+  height: 2em;
+  margin-top: .3rem;
+}
+
+#navigation {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1rem;
+  align-items: center;
+}
+
+#Yicon {
+  color: white;
+  font-size: 2.5rem;
+}
+
+#navigation li.search-icon > img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+#mail-icon {
+  position: relative;
+}
+
+#mail-icon div {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+
+#mainNav {
+  background: purple;
+  font-size: 1.2rem;
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+#search input {
+  background: purple;
+  border: none;
+  outline: none;
+  margin-left: 1.5rem;
+}
+
+#search {
+  position: relative;
+}
+
+#search img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+#search {
+  margin-right: auto;
+}
+
+#navigation li {
+  display: inline;
+  margin-left: 1.5rem;
+}
+
+/*#navigation li:nth-child(1) {
+  display: inline;
+  margin-left: 0.2rem;
+}*/
+
+.triangle {
+  background:purple;
+  height: 0.8rem;
+  width: 0.8rem;
+  position: relative;
+  top: -.4em;
+  left: 2rem;
+  transform: rotate(45deg);
+  border-radius: 20px 0 0 0;
+}
+/* BODY */
+
+#top-sec {
+  display: flex;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.columnList {
+  background: white;
+  margin-left: 2rem;
+}
+
+.columnList ul li img {
+  width: 1rem;
+  height: 1rem;
+  padding: 0;
+  margin: 0 0 0.2rem 0;
+}
+
+.columnList ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* pictures section */
+#secondSec {
+  margin-left: 1.2rem;
+  width: 90%;
+}
+
+.insideNav ul li {
+  display: inline;
+  font-size: 0.8rem;
+}
+
+#first li {
+  color: gray;
+}
+
+#first li:first-child {
+  color: white;
+}
+
+#first {
+  width: 35%;
+  margin: 0;
+  padding: 0.5rem;
+  background: purple;
+}
+
+.insideNav a {
+  margin-right: 0.5rem;
+}
+
+.insideNav img {
+  width: 1.2rem;
+  height: 1.2rem;
+  padding: 0;
+  vertical-align: middle;
+}
+
+#second {
+  width: 65%;
+  margin: 0;
+  padding: 0.5rem;
+  background-color: #D8BFD8;
+}
+
+.insideNav {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navigation2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+#zipInput {
+  width: 4em;
+}
+
+
+.imageHolder img {
+  width: 100%;
+  height: 20rem;
+}
+
+.imageHolder {
+  position: relative;
+  width: 100%;
+  height: 20rem;
+}
+
+.imageHolder .caption {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  color: white;
+  background: purple;
+  font-size: 1.5rem;
+  opacity:0.8;
+
+}
+
+.imageHolder .caption p {
+  margin-left: 2rem;
+}
+
+#other-pics {
+  display: flex;
+  width: 100%;
+}
+#other-pics img:first-child {
+  opacity: 1;
+}
+
+#other-pics img {
+  width: 20%;
+  height: 5rem;
+  background-color: white;
+  opacity: 0.5;
+}
+
+/* Bottom Sec */
+
+#bottomSec {
+  width: 90%;
+  margin: 1rem auto;
+  display: flex;
+  align-items: stretch;
+}
+
+#left nav {
+  background-color: #333333;
+}
+
+#left nav ul li {
+  display: inline;
+}
+
+#left {
+  width: 60%;
+  position: relative;
+}
+
+#left ul {
+  height: 3rem;
+  font-size: 1rem;
+  color: white;
+  margin: 0 1rem;
+}
+
+.article h2 {
+  color: purple;
+  margin-top: 2rem;
+}
+
+.article {
+  color: #333333;
+  width: 95%;
+  margin: auto;
+}
+
+.article h4 {
+  color: #a9a9a9;
+  font-weight: normal;
+}
+
+
+#left > p {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center;
+  padding-top: 0.5rem;
+  background-color: #a9a9a9;
+  height: 2em;
+}
+
+#left a {
+  color: white;
+  text-decoration: none;
+}
+
+#right {
+  width: 40%;
+}
+
+#mail {
+  height: 3rem;
+}
+
+#right #mail h3 {
+  color:  #333333;
+  font-weight: normal;
+  margin: 0;
+  padding: 0.8rem 0 0 1.5rem;
+}
+
+.email {
+  margin: 0 1rem 0 1.5rem;
+}
+.email > h3{
+  color: purple;
+  margin-bottom: 0;
+  margin-top: .6rem;
+}
+
+.email > h3 > small {
+  float: right;
+  color: #333333;
+  font-weight: normal;
+}
+
+.email p {
+  color: #333333;
+  margin: .2rem 0;
+
+}
+
+#advertisement img {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  width: 100%;
+  height: 10rem;
+}
+
+#advertisement p {
+  margin: 0;
+  text-align: center;
+  font-size: 0.6rem;
+  color: #333333;
+}
+
+#scoreboard {
+  margin: 0 0 0 1.5rem;
+  color: #333333;
+  font-weight: normal;
+}
+
+#scoreboard > h3 {
+  font-weight: normal;
+  margin: 1rem 0 0 0;
+}
+
+#right nav ul li {
+  display: inline;
+}
+
+#right nav {
+  margin-top: 0.2rem;
+  width: 100%;
+  color: purple;
+}
+
+#right nav ul {
+  padding: 0;
+  margin: 0.6rem 0.3rem 0 0;
+}
+
+#scores-container {
+  display: flex;
+}
+
+#scores-container ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#final-scores ul {
+  margin-left: 1rem;
+}
+
+#scores-container ul li {
+  margin: .6rem 0 0 0;
+}
+
+ul li i {
+  font-size: 0.7rem;
+}
+
+#right #search2 {
+  color: #a9a9a9;
+  margin: 1rem 0 0.5rem 1.5rem;
+  bottom: 0;
+}
+
+
+#test {
+  position: relative;
+}
+
+#test input {
+  margin-left: 1.5rem;
+  border: none;
+  outline: none;
+}
+#test img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  width: 1.5rem;
+  height: 1.5rem;
+}
