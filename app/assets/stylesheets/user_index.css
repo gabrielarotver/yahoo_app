@@ -249,7 +249,7 @@
   margin: 0 1rem;
 }
 
-.article h2 {
+.article h2, .article h2 a#article_link {
   color: purple;
   margin-top: 2rem;
 }

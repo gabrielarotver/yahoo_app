@@ -15,9 +15,11 @@ class PageController < ApplicationController
     pic = response["weather"][0]["icon"]
     @icon_url = "http://openweathermap.org/img/w/#{pic}.png"
 
+    @stories = Story.all
   end
 
   def admin_index
-
+    @story = Story.new
+    @stories = Story.all
   end
 end

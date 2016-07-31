@@ -1,10 +1,5 @@
-<h1>ADMIN PAGE</h1>
+<p id="notice"><%= notice %></p>
 
-
-<h3>New Stories</h3>
-<%= render 'stories/form', story: @story %>
-
-<h3>Current Stories Displaying</h3>
 <h1>Stories</h1>
 
 <table>
@@ -31,5 +26,6 @@
   </tbody>
 </table>
 
+<br>
 
-<%= link_to 'USER VIEW', user_index_path %>
+<%= link_to 'New Story', new_story_path %>

@@ -91,7 +91,13 @@
           </ul>
         </nav>
 
-        <div class="article">
+        <% @stories.each do |story| %>
+          <div class="article">
+            <h2> <a id="article_link" href="<% story.link %>"><%= story.title %></a> </h2>
+            <h4><%= story.source_name %></h4>
+          </div>
+        <% end %>
+        <!-- <div class="article">
           <h2>Breaking Down Q4 Smartphone Shipments</h2>
           <p>What do these smartphone shipments mean for the biggest players in technology today?</p>
           <h4>Motley Fool 3/1/13</h4>
@@ -107,7 +113,7 @@
           <h2>Joan Rivers Spontaneously Combusts</h2>
           <p>The notorious and infamous television personality Joan Rivers, erupted with flames this morning, which may come as a surprise to some.</p>
           <h4>Us Weekly 3/1/13</h4>
-        </div>
+        </div> -->
 
         <p><a href="#">More</a></p>
 
